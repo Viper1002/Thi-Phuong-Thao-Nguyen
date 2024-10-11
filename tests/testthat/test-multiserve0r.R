@@ -18,3 +18,4 @@ test_that("Multiserver handles zero customers", {
   expect_equal(nrow(result), 0)
 })
 devtools::test()
+
